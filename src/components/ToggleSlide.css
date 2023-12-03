@@ -1,0 +1,23 @@
+input {
+  display: none;
+}
+
+label.toggle-button {
+  cursor: pointer;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+label:hover.list-to-toggle {
+  background: #33cc00;
+  color: #000;
+}
+
+.toggle-list {
+  transition: height 0.3s ease;
+  height: 0;
+  overflow: hidden;
+}
+
+input:checked + .toggle-list {
+  height: 100px;
+}
