@@ -1,4 +1,5 @@
 import './App.css';
+import PositionEvaluation from './components/PositionEvaluation';
 import Slider from './components/Slider';
 import SliderDynamic from './components/SliderDynamic';
 import ToggleSlide from './components/ToggleSlide';
@@ -27,6 +28,9 @@ export default function App() {
           </div>
         </div>
       </section>
+
+      {/* Position Scroll */}
+      <PositionEvaluation />
 
       {/* React Slider */}
       <SliderDynamic />
