@@ -28,3 +28,13 @@ code {
   font-family: 'Cabin Sketch', sans-serif;
   font-weight: 700;
 }
+
+.sub-title-font {
+  font-family: 'Cabin Sketch', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+h2.sub-title-font {
+  margin-top: 2rem;
+}

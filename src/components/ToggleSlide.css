@@ -13,11 +13,11 @@ label:hover.list-to-toggle {
 }
 
 .toggle-list {
-  transition: height 0.3s ease;
   height: 0;
   overflow: hidden;
+  transition: height 0.3s ease;
 }
 
 input:checked + .toggle-list {
-  height: 100px;
+  height: 6rem;
 }

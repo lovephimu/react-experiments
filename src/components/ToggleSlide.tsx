@@ -3,7 +3,7 @@ import './ToggleSlide.css';
 export default function ToggleSlide() {
   return (
     <>
-      <h2>Pure CSS Toggle-Slide</h2>
+      <h2 className="sub-title-font">Pure CSS Toggle-Slide</h2>
       <section className="text-slate-300">
         <label
           htmlFor="list-to-toggle"
