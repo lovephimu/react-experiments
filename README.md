@@ -1,6 +1,12 @@
 # React Experiments
 
+## Save Selection
+
+Saving user inputs in session storage using states and useEffect
+
 ## Position Evaluation
+
+Using the bounding rectangle of an object to get it height
 
 ## React Dynamic Slider
 

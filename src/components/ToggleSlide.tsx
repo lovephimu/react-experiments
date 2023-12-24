@@ -11,7 +11,11 @@ export default function ToggleSlide() {
         >
           A list of things
         </label>
-        <input id="list-to-toggle" className="toggle-input" type="checkbox" />
+        <input
+          id="list-to-toggle"
+          className="toggle toggle-input"
+          type="checkbox"
+        />
         <div
           id="list-to-toggle"
           className="toggle-list mx-2 bg-slate-400 rounded-lg"
