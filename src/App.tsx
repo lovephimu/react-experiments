@@ -4,6 +4,7 @@ import SaveSelection from './components/SaveSelection';
 import Slider from './components/Slider';
 import SliderDynamic from './components/SliderDynamic';
 import ToggleSlide from './components/ToggleSlide';
+import TransitionObject from './components/TransitionObject';
 import experimentsLogo from './react-experiments-logo.png';
 
 export default function App() {
@@ -29,6 +30,9 @@ export default function App() {
           </div>
         </div>
       </section>
+
+      {/* Position Scroll */}
+      <TransitionObject />
 
       {/* Position Scroll */}
       <SaveSelection />

@@ -1,0 +1,17 @@
+.effect {
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5 ease;
+  position: relative;
+}
+
+.effect-item {
+  position: absolute;
+  transition: all 3s ease;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.effect-item-change {
+  left: 0%;
+  transform: translateX(0%);
+}
